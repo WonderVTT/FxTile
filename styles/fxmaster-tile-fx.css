@@ -1,0 +1,28 @@
+.fxtile-tab .fxtile-range {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.fxtile-tab .fxtile-range input[type="range"] {
+  flex: 1;
+}
+.fxtile-tab .fxtile-range .fxtile-range-value {
+  flex: 0 0 3.5em;
+  text-align: right;
+  font-family: monospace;
+}
+.fxtile-tab .fxtile-color {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.fxtile-tab .fxtile-color label {
+  flex: none;
+}
+.fxtile-tab select[multiple] {
+  height: auto;
+  min-height: 4em;
+}
+.fxtile-tab fieldset {
+  margin-top: 6px;
+}

@@ -1,0 +1,24 @@
+{
+  "id": "fxmaster-tile-fx",
+  "title": "FXMaster Tile Effects",
+  "description": "Fill a Tile with an FXMaster particle effect (fog, clouds, snow...). The effect renders at the Tile's elevation and sort order, so it sits between other tiles, and it can replace the Tile's own image.",
+  "version": "1.0.0",
+  "authors": [{ "name": "Almighty Lord of Ducks" }],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "12"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "fxmaster",
+        "type": "module",
+        "compatibility": { "minimum": "7.3.0" }
+      }
+    ]
+  },
+  "esmodules": ["scripts/main.js"],
+  "styles": ["styles/fxmaster-tile-fx.css"],
+  "languages": [{ "lang": "en", "name": "English", "path": "lang/en.json" }]
+}

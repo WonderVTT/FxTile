@@ -1,0 +1,12 @@
+{
+  "FXTILE.Tab": "FX",
+  "FXTILE.Enabled": "Fill this Tile with an FXMaster effect",
+  "FXTILE.Effect": "Particle Effect",
+  "FXTILE.HideImage": "Hide the Tile's own image",
+  "FXTILE.HideImageHint": "The effect replaces the image or video. Untick to keep the image visible under the effect.",
+  "FXTILE.Parameters": "Effect Parameters",
+  "FXTILE.Hint": "The effect fills the Tile's rectangle with a hard edge and is drawn at the Tile's elevation, just above the Tile itself. Use the Tile's Elevation and Sort to layer it between other tiles.",
+  "FXTILE.Apply": "Apply tint",
+  "FXTILE.NoFXMaster": "FXMaster Tile Effects: FXMaster is not active, so tile effects are disabled.",
+  "FXTILE.OldFXMaster": "FXMaster Tile Effects: this FXMaster version is older than 7.3.0. Effects may spawn outside their tiles. Please update FXMaster to the latest 7.x."
+}
